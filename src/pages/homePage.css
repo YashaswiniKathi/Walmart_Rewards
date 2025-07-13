@@ -1,0 +1,266 @@
+/* src/pages/homePage.css */
+
+.hero {
+  background: linear-gradient(to right, #1d4ed8, #1e40af);
+  color: white;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.hero-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+}
+
+.hero p {
+  color: #bfdbfe;
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+.hero-button {
+  display: inline-block;
+  background-color: #fbbf24;
+  color: black;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border-radius: 9999px;
+  transition: background-color 0.3s, transform 0.3s;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.hero-button:hover {
+  background-color: #f59e0b;
+  transform: scale(1.05);
+}
+
+/* Features Section */
+.features-section {
+  padding: 4rem 0;
+  background-color: white;
+}
+
+.features-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #1f2937;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.feature-card {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+  font-size: 2rem;
+}
+
+.feature-icon.shop {
+  background-color: #dbeafe;
+}
+
+.feature-icon.game {
+  background-color: #fef3c7;
+}
+
+.feature-icon.earn {
+  background-color: #d1fae5;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #1f2937;
+}
+
+.feature-description {
+  color: #6b7280;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Games Preview Section */
+.games-section {
+  padding: 4rem 0;
+  background-color: #f9fafb;
+}
+
+.games-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.games-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.game-card {
+  background: white;
+  border-radius: 0.5rem;
+  border: 1px solid #e5e7eb;
+  padding: 2rem;
+  text-align: center;
+  transition: box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.game-card:hover {
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.game-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.game-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #1f2937;
+}
+
+.game-description {
+  color: #6b7280;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+.game-points {
+  color: #1d4ed8;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/* Rewards Section */
+.rewards-section {
+  padding: 4rem 0;
+  background-color: white;
+}
+
+.rewards-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.rewards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.reward-card {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.reward-icon {
+  width: 3rem;
+  height: 3rem;
+  margin: 0 auto 1rem;
+}
+
+.reward-icon.discount {
+  color: #1d4ed8;
+}
+
+.reward-icon.shipping {
+  color: #eab308;
+}
+
+.reward-icon.exclusive {
+  color: #7c3aed;
+}
+
+.reward-icon.bonus {
+  color: #059669;
+}
+
+.reward-title {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #1f2937;
+}
+
+.reward-description {
+  color: #6b7280;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* Additional Button Styles */
+.cta-button {
+  display: inline-block;
+  background-color: #1d4ed8;
+  color: white;
+  font-weight: 600;
+  padding: 0.75rem 2rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, transform 0.2s;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.cta-button:hover {
+  background-color: #1e40af;
+  transform: translateY(-2px);
+}
+
+.cta-button.secondary {
+  background-color: #fbbf24;
+  color: #1f2937;
+}
+
+.cta-button.secondary:hover {
+  background-color: #f59e0b;
+}
