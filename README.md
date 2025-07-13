@@ -1,73 +1,52 @@
-# Welcome to your Lovable project
 
-## Project info
+# REWARDS ARCADE
 
-**URL**: https://lovable.dev/projects/5216fbc2-0d05-48c7-895e-d0f64569e943
+Reimagining the Customer Experience through Gamified Rewards
 
-## How can I edit this code?
 
-There are several ways of editing your application.
+## 🧠Problem Statement
 
-**Use Lovable**
+After a purchase, most shopping apps miss a key moment to engage customers. Traditional reward systems are passive, forgettable, and lack excitement. We wanted to make post-checkout interactions more fun, meaningful, and habit-forming.
+## 💡Our Solution
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/5216fbc2-0d05-48c7-895e-d0f64569e943) and start prompting.
+We built a Gamified Checkout Experience for Walmart using ReactJS and CSS.
 
-Changes made via Lovable will be committed automatically to this repo.
+After each purchase, users are offered a chance to play a quick, engaging game:
 
-**Use your preferred IDE**
+🎰 Slot Machine
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+❓ Trivia Quiz
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+🥚 Shell Game
 
-Follow these steps:
+### Rewards:
+Win: Earn coupons, digital rewards, or extra points
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Lose: Receive a small consolation prize (e.g., 5 points)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Rewards are automatically added to the Walmart Wallet, ready to redeem anytime.
+## Key Benefits
+#### 🏪 For Walmart:
+Higher post-purchase engagement
 
-# Step 3: Install the necessary dependencies.
-npm i
+Increased app usage and user sign-ins
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Valuable behavioral analytics
 
-**Edit a file directly in GitHub**
+A scalable gamified rewards ecosystem
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+#### 👥 For Users:
+Fun, engaging checkout experience
 
-**Use GitHub Codespaces**
+Instant gratification
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Incentives to return, play, and redeem rewards
+## 🛠️ Tech Stack
 
-## What technologies are used for this project?
+Frontend: ReactJS
 
-This project is built with:
+Styling: Plain CSS
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Routing: React Router DOM
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/5216fbc2-0d05-48c7-895e-d0f64569e943) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+State Management: React Hooks
